@@ -8,7 +8,7 @@
 
 html {
   scroll-behavior: smooth;
-  transition-duration: 20s; /* Set the duration to 2 seconds */
+  transition-duration: 20s;
 }
 
 body {
@@ -116,8 +116,8 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 15vh;
-  width: 350px;
-  height: 15vh;
+  width: 280px;
+  height: 17vh;
   background-color: rgba(0, 0, 0, 0.514);
   color: rgba(255, 255, 255, 0.733);
   text-shadow: 12px 12px rgba(0, 0, 0, 0.356);
@@ -125,7 +125,11 @@ body {
 
 #title-box h1 {
   margin-top: 3vh;
-  font-size: 3rem;
+  font-size: 2em;
+}
+
+#title-box p {
+  font-size: 0.7em;
 }
 
 #section1 {
@@ -159,9 +163,6 @@ body {
   text-align: center;
 }
 
-#bgc option {
-}
-
 #section1a {
   /* background-image: url(https://media0.giphy.com/media/loj5BtUrr5vzZmptpZ/giphy.gif?cid=ecf05e47lukpafb2qac6os6z4doyvdvbuo9vjftoj49fwn2h&rid=giphy.gif&ct=g); */
   /* background-image: url(https://images.unsplash.com/photo-1511314413493-811b0a0522f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80); */
@@ -188,14 +189,14 @@ body {
 }
 
 #bio h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 40px;
 }
 
 #bio p {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-bottom: 40px;
+  font-size: 0.7em;
+  line-height: 1.5em;
+  margin-bottom: 30px;
 }
 
 #section2a {
@@ -259,12 +260,12 @@ body {
 }
 
 .work-description {
-  font-size: 1.2em;
-  background-color: #ffffff13;
+  font-size: 0.8em;
+  background-color: #00000069;
   color: #fff;
   text-shadow: #333 2px;
   height: 50%;
-  width: 80%;
+  width: 90%;
   padding: 10px;
   /* 
   border: rgba(255, 255, 0, 0.158) solid 10px; */
