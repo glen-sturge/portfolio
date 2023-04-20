@@ -75,7 +75,7 @@ body {
 } */
 
 #sections {
-  width: 900vw;
+  width: 700vw;
   height: 100vh;
   display: flex;
 }
@@ -194,7 +194,7 @@ body {
 }
 
 #bio p {
-  font-size: 0.7em;
+  font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 30px;
 }
