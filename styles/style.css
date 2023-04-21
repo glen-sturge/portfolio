@@ -272,10 +272,7 @@ body {
 }
 
 /* modals */
-#modal4,
-#modal1,
-#modal2,
-#modal3 {
+.modal {
   backdrop-filter: blur(5px);
   margin: auto;
   height: 100vh;
@@ -299,7 +296,7 @@ body {
   margin-top: 5vh;
 }
 
-.modal-guthub {
+.modal-github {
   height: 50px;
   width: 50px;
 }
@@ -366,4 +363,118 @@ a {
   font-family: Arial, sans-serif;
   color: #333;
   text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 414px) {
+  #work {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .work-ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3333338a;
+    margin: 4px;
+    width: 44.5%;
+  }
+
+  .work-ex h1 {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  }
+
+  .work-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    border: #fff solid 1px;
+  }
+
+  .work-thumbnail img {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+  }
+
+  .work-ex-ss {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .work-description {
+    font-size: 1em;
+    background-color: #00000069;
+    color: #fff;
+    text-shadow: #333 2px;
+    height: 50%;
+    width: 90%;
+    padding: 4px;
+    overflow: scroll;
+    overflow: hidden;
+  }
+
+  /* nav */
+
+  .inner-nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .link-wrapper {
+    width: 20%;
+    text-align: center;
+  }
+
+  .nav a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav a:hover {
+    font-size: 2em;
+    font-weight: 700;
+    color: rgba(13, 235, 224, 0.473);
+  }
+
+  #bio {
+    width: 90%;
+    height: 70%;
+    padding: 20px;
+    background-color: rgba(43, 42, 42, 0.884);
+    margin-bottom: 15vh;
+  }
+
+  #bio h1 {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+
+  #bio p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+  }
+
+  #contact {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
 }
